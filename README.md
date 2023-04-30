@@ -2,9 +2,9 @@
 Використовую теґи HTML, щоб додати фотографії, кнопки та інші елементи до вебсторінки.  Застосовую найпоширеніші теґи HTML, створивши власний застосунок з фотографіями.
 
 ## Кончтрукції:
-<!--
-- <!DOCTYPE html>
-- <html lang="en">
+
+// - <!DOCTYPE html>
+// - <html lang="en">
 - <head></head>
 - <title></title>
 - <body></body>
@@ -23,4 +23,4 @@
 - <img src="#" alt"#">
 - <label><input id="" type="" name="" value="" checked></label>
 - <form action=""></form>
--->
+
