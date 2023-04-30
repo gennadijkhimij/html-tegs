@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <title>Додаток для фото котів</title>
+  </head>
+  <body>
+    <main>
+      <h1>Додаток для фото котів</h1>
+      <section>
+        <h2>Фото котів</h2>
+        <p>Дивитись більше <a target="_blank" href="#">фото з котами</a> в іншій галереї.</p>
+        <a href="#"><img src="pic/relaxing-cat.jpg" alt="Милий рудий кіт лежить на спині."></a>
+      </section>
+      <section>
+        <h2>Список для котів</h2>
+        <h3>Що люблять коти:</h3>
+        <ul>
+          <li>Котячий куток</li>
+          <li>Лазерна указка</li>
+          <li>Котяча випічка з мясом</li>
+        </ul>
+        <figure>
+          <img src="pic/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Котяча <em>любима</em> випічка.</figcaption>  
+        </figure>
+        <h3>Топ 3, речі які коти не люблять:</h3>
+        <ol>
+          <li>лікування від бліх</li>
+          <li>блискавки</li>
+          <li>інших котів</li>
+        </ol>
+        <figure>
+          <img src="pic/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Коти <strong>не люблять</strong> інших котів.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Форма про кота</h2>
+        <form action="#">
+          <fieldset>
+            <legend>У вас кіт кімнатний чи вуличний?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Кімнатний</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Вуличний</label>
+          </fieldset>
+          <fieldset>
+            <legend>Який характер у вашого кота?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Люблячий</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Лінивий</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Енергійний</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="URL-адреса фото кота" required>
+          <button type="submit">Надіслати</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://github.com/gennadijkhimij/">Gennadij Khimij</a>
+      </p>
+    </footer>
+  </body>
+</html>
